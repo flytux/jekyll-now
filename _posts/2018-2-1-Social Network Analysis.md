@@ -3,4 +3,5 @@ layout: post
 title: Social Network Analysis
 ---
 
-- Socical network analysis [article](https://hackernoon.com/why-berlin-needs-more-local-vcs-a-network-analysis-90f903ab519a) for startups and vc
+- Socical network analysis [article](https://hackernoon.com/why-berlin-needs-more-local-vcs-a-network-analysis-90f903ab519a) for startups and vc in Berlin
+- VC network analyis [article](https://brunch.co.kr/@haegun/3) in Korea (2015) 
