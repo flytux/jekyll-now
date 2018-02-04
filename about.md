@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Data Scienece Practitioner interested in financial services and open source
+Data Scienece Practitioner 
+- familiar with financial services industry
+- likes open source community and software
 
 
 ### Contact me
