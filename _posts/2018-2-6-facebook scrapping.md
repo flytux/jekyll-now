@@ -32,16 +32,16 @@ Identify page id of scrapping data
 # facebook app ID, secret code for accessing fb page
 # my facebook app ID and secret code for facebook scrapping
 
-app_id = "334452787037301"
-app_secret = "4955f503a3c1779a8840aa1f8931f0ee" # DO NOT SHARE WITH ANYONE!
+app_id = "xxxxxxxxxxxxx"
+app_secret = "xxxxxxxxxxxxxxx" # DO NOT SHARE WITH ANYONE!
 
 # long term access token from stackoverflow 
 https://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info/21927690#21927690
-access_token = "EAAEwLtuQxHUBAI7ZCwvZA1UFvISah0wadM59RRtpwnUoHx4dbhofzUBHl3awZAGIQFZCRVSJ2ZBGpnZAQ6HK3HDzVntlCKMlAMZA6ZAzj0IcKlU1Xs404EZC9Lw66YLC8LmcM3i6XqFZAW88pZCf8gfQsPbhOBJiDHVY6jnAdeeqVy4zwZDZD"
+access_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 # sample site my secret group - administrator previledge required
-page_id = '1899709987026304'
+page_id = 'yyyyyyyyyyyyyyy'
 ```
 
 ### Call facebook GRAPH API for scrappong data
@@ -54,7 +54,7 @@ def getFacebookPageFeedData(page_id, access_token, num_statuses):
     
     # construct the URL string
     base = "https://graph.facebook.com/v2.12"
-    node = "/1899709987026304?fields=feed&"
+    node = "/zzzzzzzzzzzzzzzzz?fields=feed&"
     parameters ="/&access_token=%s" % access_token
     url = base + node + parameters
     print(url)
@@ -67,32 +67,28 @@ def getFacebookPageFeedData(page_id, access_token, num_statuses):
 
 getFacebookPageFeedData(page_id, access_token, 5)
 
-#https://graph.facebook.com/v2.12/1899709987026304?fields=feed&since=1517815673&limit=25&access_token=EAAEwLtuQxHUBAA0GmfcZCUcnLQJ0KbmQFvouV82tVtiCmoID6cykBEkOWzhpiU7Isi88Xo8c2adPV1ooGu5XePpWJUy7QTY6P7ZBGVfZCO0e3IP8ScBKNlUCYqZAkX7RFXymWSnESkIaSl9vQZAHZBlmfoknHGfwAxdaSmAwbPHHKVNd8VAG0dbYZAX3QE4smMHFgnqGYOZBcgZDZD
-```
-
-    https://graph.facebook.com/v2.12/1899709987026304?fields=feed&/&access_token=EAAEwLtuQxHUBAI7ZCwvZA1UFvISah0wadM59RRtpwnUoHx4dbhofzUBHl3awZAGIQFZCRVSJ2ZBGpnZAQ6HK3HDzVntlCKMlAMZA6ZAzj0IcKlU1Xs404EZC9Lw66YLC8LmcM3i6XqFZAW88pZCf8gfQsPbhOBJiDHVY6jnAdeeqVy4zwZDZD
-    
 
 
 
 
-    {'feed': {'data': [{'id': '1899709987026304_1900134376983865',
+
+    {'feed': {'data': [{'id': 'z',
         'message': 'One of Fintech conference',
-        'story': "정재훈 shared CB Insights's photo to the group: AI Ops.",
+        'story': "aaa shared CB Insights's photo to the group: AI Ops.",
         'updated_time': '2018-02-05T23:33:10+0000'},
-       {'id': '1899709987026304_1900134243650545',
+       {'id': 'z',
         'message': 'Fintech trends in 2018',
-        'story': "정재훈 shared CB Insights's post to the group: AI Ops.",
+        'story': "aaa shared CB Insights's post to the group: AI Ops.",
         'updated_time': '2018-02-05T23:32:19+0000'},
-       {'id': '1899709987026304_1900133833650586',
+       {'id': 'z',
         'message': 'digital leadership requires new skills',
-        'story': "정재훈 shared World Economic Forum's post to the group: AI Ops.",
+        'story': "aaa shared World Economic Forum's post to the group: AI Ops.",
         'updated_time': '2018-02-05T23:29:54+0000'},
-       {'id': '1899709987026304_1899709993692970',
-        'story': '정재훈 created the group AI Ops.',
+       {'id': 'z',
+        'story': 'aaa created the group AI Ops.',
         'updated_time': '2018-02-05T00:59:15+0000'}],
-      'paging': {'next': 'https://graph.facebook.com/v2.12/1899709987026304/feed?access_token=EAAEwLtuQxHUBAI7ZCwvZA1UFvISah0wadM59RRtpwnUoHx4dbhofzUBHl3awZAGIQFZCRVSJ2ZBGpnZAQ6HK3HDzVntlCKMlAMZA6ZAzj0IcKlU1Xs404EZC9Lw66YLC8LmcM3i6XqFZAW88pZCf8gfQsPbhOBJiDHVY6jnAdeeqVy4zwZDZD&limit=25&until=1517792355&__paging_token=enc_AdDqoZCQet1msTeLxFbhMUnuMSMay3uZCI7wmUck6qWVHhsrvoecTJKGDwp2BUGxuXD5rarmcdkLOXrwRqOWyNzLSsVfp8zP7dEDbPHozyK2JYYwZDZD',
-       'previous': 'https://graph.facebook.com/v2.12/1899709987026304/feed?since=1517873590&access_token=EAAEwLtuQxHUBAI7ZCwvZA1UFvISah0wadM59RRtpwnUoHx4dbhofzUBHl3awZAGIQFZCRVSJ2ZBGpnZAQ6HK3HDzVntlCKMlAMZA6ZAzj0IcKlU1Xs404EZC9Lw66YLC8LmcM3i6XqFZAW88pZCf8gfQsPbhOBJiDHVY6jnAdeeqVy4zwZDZD&limit=25&__paging_token=enc_AdDRgw6NV9TQTh3taCQ7ewKTFtbZBKcTZAdIdGZAh9N6WtdZBiZC7anDgrqfJBgVMblSZBSwBlZCu5N0WQHY7e2cJ0M5istzctoyGXei4L16pankihCSgZDZD&__previous=1'}},
-     'id': '1899709987026304'}
+      'paging': {'next': 'https://graph.facebook.com/v2.12/z/feed?access_token=z&limit=25&until=1517792355&__paging_token=z',
+       'previous': 'https://graph.facebook.com/v2.12/z/feed?since=1517873590&access_token=z&limit=25&__paging_token=z&__previous=1'}},
+     'id': 'z'}
 
 
