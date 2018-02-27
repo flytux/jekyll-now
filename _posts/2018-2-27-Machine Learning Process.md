@@ -1,1 +1,1 @@
-![Machine Learning Process](/images/Machine%20Learning%Process.PNG)
+![Machine Learning Process](flytux.github.io/images/Machine Learning Process.PNG)
