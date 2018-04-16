@@ -4,4 +4,4 @@ title: Vuex overview
 ---
 
 
-![Veux Overview](/images/veux.png)
+![Veux Overview](images/vuex.png)
