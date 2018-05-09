@@ -1,4 +1,4 @@
-## - Blochain structure overview
+## - Blockchain structure overview
 
 ![Blockchain](/images/blockchain.png)
 
