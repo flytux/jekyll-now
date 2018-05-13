@@ -1,1 +1,1 @@
-High level comparison of Blockchain Platforms
+High level ![comparison](imgages/blockchain comparision.png) of Blockchain Platforms
