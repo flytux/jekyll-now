@@ -1,1 +1,1 @@
-Consensys Academy Syllabus 2018 ![HERE](/images/)
+Consensys Academy Syllabus 2018 ![HERE](/images/consensys-academy-2018.png)
